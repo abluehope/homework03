@@ -417,6 +417,7 @@
 
 .character .right .list strong {
   font-size: 20px;
+  user-select: none;
 }
 
 .character .right .list .xi-youtube-play {
