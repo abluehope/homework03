@@ -36,7 +36,7 @@ $(function () {
   });
 
   $(".pic_slide").slick({
-    // 슬라이더 두개 엮기
+    // 슬라이드 두개 엮기
     arrows: false,
     asNavFor: ".txt_slide",
     focusOnSelect: true,

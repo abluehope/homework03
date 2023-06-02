@@ -45,10 +45,15 @@
   border-bottom: 1px solid #ddd;
 }
 
+.header a {
+  display: block;
+}
+
 .header .inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  line-height: 100px;
   height: 100px;
 }
 
@@ -74,20 +79,16 @@
   overflow: hidden;
 
   position: absolute;
-  top: 100px;
-  left: 50%;
+  top: 120px;
+  left: 100%;
   transform: translate(-50%, 0);
   z-index: 999;
-
-  text-align: center;
-  width: 100%;
+  width: 120px;
   line-height: 30px;
-
-  transition: 0.5s;
 }
 
 .header .gnb:hover > ul > li .sub {
-  height: 500px;
+  height: 300px;
 }
 
 .header .gnb::before {
@@ -105,7 +106,7 @@
 }
 
 .header .gnb:hover::before {
-  height: 200px;
+  height: 300px;
 }
 
 .header .inner .util_menu > ul {
